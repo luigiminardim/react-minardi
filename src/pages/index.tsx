@@ -1,36 +1,20 @@
 import React from 'react'
-import Head from 'next/head'
-import styled, { createGlobalStyle } from 'styled-components'
+import { H1, BoldRed } from './../concrete-components/typography'
+import Image from 'next/image'
+import Page from '../abstract-components/Page'
 
-const BodyStyler = createGlobalStyle`
-  body {
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    background: #fff;
-    box-sizing: border-box;
-  }
-
-  body {
-    border: green 1px solid;
-  }
-
-  body>#__next {
-    border: red 1px solid;
-  }
-`
-
-export const Home: React.FC = () => (
-  <>
-    <BodyStyler />
-    <Head>
-      <title>App title</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-    <main>
-      <h1>Page content</h1>
-    </main>
-  </>
-)
-
-export default Home
+export default function Home(): JSX.Element {
+  return (
+    <Page>
+      <Image
+        src="https://assets.instabuy.com.br/ib.item.image.small/s-cc44d8d53e5448da99ce5c1aaf67f237.jpg"
+        alt="Google"
+        width={500}
+        height={500}
+      />
+      <H1>
+        Page <BoldRed>content</BoldRed>
+      </H1>
+    </Page>
+  )
+}

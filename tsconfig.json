@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@abstract/*": ["./src/abstract-components/*"],
+    //   "@template/*": ["./src/template-components/*"],
+    //   "@concrete/*": ["./src/concrete-components/*"]
+    // },
     "target": "es5",
     "lib": [
       "dom",

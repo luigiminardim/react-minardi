@@ -1,0 +1,61 @@
+import styled from 'styled-components'
+
+const View = styled.div`
+  align-content: stretch;
+  align-self: auto;
+  background: #ffffff00;
+  border: 0px solid #000000;
+  border-collapse: collapse;
+  border-radius: 0px;
+  bottom: auto;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: default;
+  direction: ltr;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: column nowrap;
+  font: 400 14px/1.2 sans-serif;
+  justify-content: flex-start;
+  left: 0px;
+  letter-spacing: 2px;
+  list-style: none inside none;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  min-width: 0px;
+  object-fit: scale-down;
+  object-position: 50% 50%;
+  opacity: 1;
+  order: 0;
+  outline: 0px solid black;
+  overflow: hidden;
+  padding: 0px;
+  position: relative;
+  resize: none;
+  right: auto;
+  scroll-behavior: smooth;
+  tab-size: 8px;
+  table-layout: fixed;
+  text-align: left;
+  text-decoration: none currentColor solid;
+  text-indent: 0px;
+  text-justify: auto;
+  text-overflow: ellipsis;
+  text-shadow: none;
+  text-transform: none;
+  top: 0;
+  transform: none;
+  user-select: text;
+  vertical-align: baseline;
+  visibility: visible;
+  white-space: normal;
+  width: auto;
+  word-break: break-all;
+  word-spacing: 0px;
+  word-wrap: normal;
+  writing-mode: horizontal-tb;
+  z-index: 0;
+`
+export default View
